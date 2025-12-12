@@ -3,7 +3,7 @@ from schema.user_input import CarInput
 from schema.prediction_response import PredictionResponse
 from model.predict import model_service
 
-app = FastAPI(title="CarValuator Enterprise API 🏎️")
+app = FastAPI(title="CarValuator Enterprise API")
 
 @app.get("/")
 def home():
